@@ -1,5 +1,6 @@
 import React from 'react'
 import { works } from '../data/works'
+import { Link } from 'react-router-dom'
 
 const Portfolio = () => {
   return (
@@ -13,7 +14,7 @@ const Portfolio = () => {
               <img src={'/images/'+work.id+'.png'} />
             </div>
             <span>{work.category}</span>
-            <h2>{work.name}</h2>
+            <h2><Link to={'/project/'+work.id}>{work.name}</Link></h2>
             <h3>{work.technologies}</h3>
           </article>
         ))
