@@ -18,7 +18,7 @@ export const works = [
     {
         'id': 'ecommerce',
         'name': 'E-commerce',
-        'url': 'https://github.com/camilo180601/tienda_camele',
+        'url': 'https://github.com/camilo180601/dakiti',
         'technologies': 'PHP, MySQL, jQuery, JavaScript, HTML, Bootstrap',
         'category': 'Web development',
         'description': 'The project is a PHP-native e-commerce website with PayPal integration for secure payment processing. It features a product catalog, shopping cart, order management, product reviews, search and filtering, and a responsive design. Users can browse products, add items to the cart, and complete transactions using PayPal. However, the project does not include user login or authentication functionalities. Overall, it provides a user-friendly and convenient platform for online shopping.'
