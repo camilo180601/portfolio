@@ -8,24 +8,23 @@ body {
 }
 
 .layout {
-  width: 90%;
+  width: 85%;
   margin: 0 auto;
 }
 
 .header {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  list-style: none;
-  height: 80px;
-  border-bottom: 2px solid black;
-  margin-bottom: 25px;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    height: 132px;
+    border-bottom: 3px solid black;
+    margin-bottom: 35px;
 }
 
 .header .logo {
-  flex-grow: 1;
+  flex-grow: 2;
   display: flex;
-  align-items: center;
 }
 
 .header .logo span {
