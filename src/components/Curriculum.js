@@ -18,15 +18,19 @@ const Curriculum = () => {
                 <li>Laravel</li>
                 <li>JavaScript</li>
                 <li>ReactJS</li>
+                <li>NodeJS</li>
                 <li>AWS(EC2)</li>
                 <li>MySQL</li>
+                <li>NoSQL</li>
+                <li>Linux Ubuntu</li>
             </ul>
             <h2>Education</h2>
-            
             <ul>
-                <li></li>
+                <li> UMNG. Computer Engineering (2019-2024) </li>
+                <li> Master en React: Aprender ReactJS, Hooks, MERN, NodeJS, JWT+ </li>
+                <li> Master en PHP, SQL, POO, MVC, Laravel, Symfony, WordPress + </li>
+                <li> Master en JavaScript: Aprender JS, jQuery, Angular, NodeJS </li>
             </ul>
-            <h2>Personal projects</h2>
         </div>
     )
 }

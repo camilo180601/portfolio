@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import ListWorks from './ListWorks'
 
 const Index = () => {
   return (
@@ -16,9 +17,7 @@ const Index = () => {
       <section className='lasts-works'>
         <h2 className='heading'>Some of my projects</h2>
         <p>These are some of my web development works.</p>
-        <div className='works'>
-
-        </div>
+        <ListWorks limit="2" />
       </section>
     </div>
   )
