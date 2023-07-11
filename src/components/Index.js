@@ -10,7 +10,7 @@ const Index = () => {
         and I offer my <strong>programming</strong> and <strong>development</strong> services for 
         all types of web projects.
       </h1>
-      <h2>
+      <h2 className='title'>
         I help you create your website or web application,
         gain more visibility and relevance on the web. <Link to='/contact'>Contact me</Link>
       </h2>
