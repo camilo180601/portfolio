@@ -11,6 +11,7 @@ const Portfolio = () => {
             <span>{work.category}</span>
             <h2>{work.name}</h2>
             <h3>{work.technologies}</h3>
+            <p>{work.description}</p>
           </article>
         ))
       }
