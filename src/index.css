@@ -215,11 +215,14 @@ button:hover {
     padding: 10px;
   }
    .header .logo {
-    flex-grow: 0;
-    margin-bottom: 10px;
+    flex-grow: 1;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column;
   }
    .header .logo span {
     font-size: 40px;
+    margin-top: 10px;
   }
    .header .logo h3 {
     margin-left: 0;
@@ -256,6 +259,9 @@ button:hover {
    .header .logo span {
     font-size: 30px;
   }
+   .header .logo h3 { 
+    font-size: 16px; 
+  } 
    .home h1 {
     font-size: 30px;
     margin-top: 30px;
