@@ -4,6 +4,7 @@ import { NavLink } from 'react-router-dom'
 const HeaderNav = () => {
     return (
         <header className='header'>
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"></link>
             <div className='logo'>
                 <span>C</span>
                 <h3>Camilo Lopez</h3>
