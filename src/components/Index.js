@@ -12,8 +12,12 @@ const Index = () => {
             </h1>
             <h2 className='title'>
                 I help you create your website or web application,
-                gain more visibility and relevance on the web. <Link to='/contact'>Contact me</Link>
+                gain more visibility and relevance on the web.
+                <br/>
+                <br/>
+                <Link to='/contact'>Contact me</Link>
             </h2>
+            <hr/>
             <section className='lasts-works'>
                 <h2 className='heading'>Some of my projects</h2>
                 <p>These are some of my web development works.</p>
