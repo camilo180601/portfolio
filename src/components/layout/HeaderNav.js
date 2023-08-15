@@ -7,7 +7,7 @@ const HeaderNav = () => {
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"></link>
             <div className='logo'>
                 <span>C</span>
-                <h3>Camilo Lopez</h3>
+                <h3>amilo Lopez</h3>
             </div>
             <nav>
                 <ul>

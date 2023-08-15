@@ -30,8 +30,8 @@ body {
 }
  .header .logo span {
   display: block;
-  font-size: 75px;
-  margin-top: -25px;
+  font-size: 80px;
+  margin-top: -32px;
   font-weight: bolder;
 }
  .header .logo h3 {
