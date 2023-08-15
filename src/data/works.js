@@ -1,5 +1,13 @@
 export const works = [
     {
+        'id': 'social-media',
+        'name': 'Social-media',
+        'url': 'https://github.com/camilo180601/client-socialmedia',
+        'technologies': 'NodeJS, ReactJS, MongoDB, HTML and CSS',
+        'category': 'Web development',
+        'description': 'This project involves building a social media application using Node.js and React. Users can modify their profile avatar, biography and make posts with video or photo.'
+    },
+    {
         'id': 'translator',
         'name': 'GPT-3.5 API translator',
         'url': 'https://github.com/camilo180601/translate-react-api-gpt-3.5',
@@ -38,13 +46,5 @@ export const works = [
         'technologies': 'PHP, HTML, CSS and MySQL',
         'category': 'Web development',
         'description': 'The PHP-native blog project offers users the ability to manage their posts with features like editing and deleting. It incorporates a login system for user authentication and ensures a responsive design for a seamless browsing experience. With categories, related topics, and user-friendly functionalities, it provides a comprehensive platform for content creation and management.'
-    },
-    {
-        'id': 'crudnode',
-        'name': 'Crud NodeJS',
-        'url': 'https://github.com/camilo180601/CRUD-NodeJS',
-        'technologies': 'NodeJS, Express, MySQL, HTML, CSS and Boostrap',
-        'category': 'Web development',
-        'description': 'This project involves building a CRUD (Create, Read, Update, Delete) application using Node.js and Express. It allows users to perform basic database operations such as creating, reading, updating, and deleting records.'
     }
 ];
