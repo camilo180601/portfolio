@@ -1,10 +1,25 @@
 import React from 'react'
+import { FaDownload } from 'react-icons/fa';
 
 const Curriculum = () => {
+
+    const handleDownload = () => {
+        console.log("download pdf");
+        const link = document.createElement('a');
+        link.href = 'curriculum.pdf'; // Ruta al archivo PDF en la carpeta public
+        link.download = 'curriculum.pdf';
+        link.click();
+    };
+
     return (
         <div className='page'>
-            <h1 className='heading'>Curriculum vitae</h1>
-
+            <div className='clearfix'>
+                <h1 className='heading float-start'>Curriculum vitae</h1>
+                <button onClick={handleDownload} className='float-end'>
+                    <FaDownload />
+                </button>
+            </div>
+            <br/>
             <h2>Experience</h2>
             <ul>
                 <li>Software Engineer Developer, October 2022 - Present.</li>
